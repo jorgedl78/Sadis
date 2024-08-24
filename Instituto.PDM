@@ -1,0 +1,1038 @@
+[Root]
+Most Recent Package=Paquete de instalación estándar 1
+
+
+[Package|SADIS Standar|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\SADIS Instalacion
+
+[Package|SADIS Standar|Configure DAO ISAMs]
+Applicable=Yes
+Xbase=No
+Excel=No
+Exchange=No
+Text=No
+Jet 2.x=No
+Lotus=No
+Paradox=No
+
+[Package|SADIS Standar|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|SADIS Standar|Files Found]
+
+[Package|SADIS Standar|Files Released]
+
+[Package|SADIS Standar|Missing Dependency Information]
+
+[Package|SADIS Standar|Out-of-Date Dependency Information]
+C:\Windows\System32\CRYSTL32.OCX=
+
+[Package|SADIS Standar|Files Added]
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\actasin.rpt=
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\analitic.rpt=
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\aprobados.rpt=
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\asistdes.rpt=
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\asistenc.rpt=
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\carreras.rpt=
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\contcorr.rpt=
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\liscoop.rpt=
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\listape.rpt=
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\listpago.rpt=
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\mesascar.rpt=
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\mesasdia.rpt=
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\mesaspro.rpt=
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\parcial.rpt=
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\plaanali.rpt=
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\recibo.rpt=
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\recupera.rpt=
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\titulo.rpt=
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\titulot2.rpt=
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\titulotf.rpt=
+
+[Package|SADIS Standar|Files Removed]
+
+[Package|SADIS Standar|Files In Project]
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\Instituto.exe=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Windows\System32\VB6ES.DLL=Yes
+C:\Windows\System32\MSBIND.DLL=Yes
+C:\Windows\System32\MSSTDFMT.DLL=Yes
+C:\Windows\System32\STDFTES.DLL=Yes
+C:\Program Files\Common Files\microsoft shared\DAO\DAO350.DLL=Yes
+C:\Windows\System32\MSJET35.DLL=Yes
+C:\Windows\System32\MSJTER35.DLL=Yes
+C:\Windows\System32\MSJINT35.DLL=Yes
+C:\Windows\System32\vbajet32.dll=Yes
+C:\Windows\System32\expsrv.dll=Yes
+C:\Windows\System32\MSRD2X35.DLL=Yes
+C:\Windows\System32\MSREPL35.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\Windows\System32\VB5DB.DLL=Yes
+C:\Windows\System32\MSDATGRD.OCX=Yes
+C:\Windows\System32\DATGDES.DLL=Yes
+C:\Windows\System32\MSADODC.OCX=Yes
+C:\Windows\System32\ADODCES.DLL=Yes
+C:\Windows\System32\MSDATLST.OCX=Yes
+C:\Windows\System32\DATLSES.DLL=Yes
+C:\Windows\System32\mscomct2.ocx=Yes
+C:\Windows\System32\MSCC2ES.DLL=Yes
+C:\Windows\System32\mscomctl.ocx=Yes
+C:\Windows\System32\MSCMCES.DLL=Yes
+C:\Windows\System32\CRYSTL32.OCX=Yes
+C:\Windows\System32\CRPE32.DLL=Yes
+C:\Windows\System32\IMPLODE.DLL=Yes
+C:\Windows\System32\PG32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\CO2C40EN.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT20.DLL=Yes
+C:\Windows\Crystal\CRXLAT32.DLL=Yes
+C:\Windows\System32\P2BBND.DLL=Yes
+C:\Windows\System32\P3D4BDES.DLL=Yes
+C:\Windows\System32\P2BDAO.DLL=Yes
+C:\Windows\System32\P3BDAOES.DLL=Yes
+C:\Windows\System32\P2CTDAO.DLL=Yes
+C:\Windows\System32\P3CDAOES.DLL=Yes
+C:\Windows\System32\P2IRDAO.DLL=Yes
+C:\Windows\System32\P3RDAOES.DLL=Yes
+C:\Windows\System32\P2SODBC.DLL=Yes
+C:\Windows\System32\P3S4ODES.DLL=Yes
+C:\Windows\Crystal\U2DDISK.DLL=Yes
+C:\Windows\Crystal\X2D4DKES.DLL=Yes
+C:\Windows\Crystal\U2DMAPI.DLL=Yes
+C:\Windows\Crystal\X2D4MPES.DLL=Yes
+C:\Windows\Crystal\U2FCR.DLL=Yes
+C:\Windows\Crystal\X2F4CRES.DLL=Yes
+C:\Windows\Crystal\U2FDIF.DLL=Yes
+C:\Windows\Crystal\X2F4DFES.DLL=Yes
+C:\Windows\Crystal\U2FHTML.DLL=Yes
+C:\Windows\Crystal\X2F4HTES.DLL=Yes
+C:\Windows\Crystal\U2FREC.DLL=Yes
+C:\Windows\Crystal\X2F4RCES.DLL=Yes
+C:\Windows\Crystal\U2FRTF.DLL=Yes
+C:\Windows\Crystal\X2F4RTES.DLL=Yes
+C:\Windows\Crystal\U2FSEPV.DLL=Yes
+C:\Windows\Crystal\X2F4SVES.DLL=Yes
+C:\Windows\Crystal\U2FTEXT.DLL=Yes
+C:\Windows\Crystal\X2F4TXES.DLL=Yes
+C:\Windows\Crystal\U2FWKS.DLL=Yes
+C:\Windows\Crystal\X2F4WKES.DLL=Yes
+C:\Windows\Crystal\U2FWORDW.DLL=Yes
+C:\Windows\Crystal\X2F4WDES.DLL=Yes
+C:\Windows\Crystal\U2FXLS.DLL=Yes
+C:\Windows\Crystal\X2F4XLES.DLL=Yes
+C:\Windows\System32\CR2C40ES.DLL=Yes
+C:\Windows\System32\CC245ES.DLL=Yes
+C:\Windows\System32\TABCTL32.OCX=Yes
+C:\Windows\System32\TABCTES.DLL=Yes
+C:\Windows\System32\COMCT332.OCX=Yes
+C:\Windows\System32\CMCT3ES.DLL=Yes
+C:\Program Files\Common Files\DESIGNER\MSDERUN.DLL=Yes
+C:\Windows\System32\MSDBRPTR.DLL=Yes
+C:\Windows\System32\DBRPRES.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\actasin.rpt=Yes
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\analitic.rpt=Yes
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\aprobados.rpt=Yes
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\asistdes.rpt=Yes
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\asistenc.rpt=Yes
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\carreras.rpt=Yes
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\contcorr.rpt=Yes
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\liscoop.rpt=Yes
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\listape.rpt=Yes
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\listpago.rpt=Yes
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\mesascar.rpt=Yes
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\mesasdia.rpt=Yes
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\mesaspro.rpt=Yes
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\parcial.rpt=Yes
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\plaanali.rpt=Yes
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\recibo.rpt=Yes
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\recupera.rpt=Yes
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\titulo.rpt=Yes
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\titulot2.rpt=Yes
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\titulotf.rpt=Yes
+
+[Package|SADIS Standar|Configure Registry Files]
+Applicable=No
+
+[Package|SADIS Standar|Configure Remote Servers]
+Applicable=No
+
+[Package|SADIS Standar|Install Locations]
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\Instituto.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\VB6ES.DLL=$(WinSysPath)
+C:\Windows\System32\MSBIND.DLL=$(WinSysPath)
+C:\Windows\System32\MSSTDFMT.DLL=$(WinSysPath)
+C:\Windows\System32\STDFTES.DLL=$(WinSysPath)
+C:\Program Files\Common Files\microsoft shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\Windows\System32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\vbajet32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\expsrv.dll=$(WinSysPathSysFile)
+C:\Windows\System32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\VB5DB.DLL=$(WinSysPath)
+C:\Windows\System32\MSDATGRD.OCX=$(WinSysPath)
+C:\Windows\System32\DATGDES.DLL=$(WinSysPath)
+C:\Windows\System32\MSADODC.OCX=$(WinSysPath)
+C:\Windows\System32\ADODCES.DLL=$(WinSysPath)
+C:\Windows\System32\MSDATLST.OCX=$(WinSysPath)
+C:\Windows\System32\DATLSES.DLL=$(WinSysPath)
+C:\Windows\System32\mscomct2.ocx=$(WinSysPath)
+C:\Windows\System32\MSCC2ES.DLL=$(WinSysPath)
+C:\Windows\System32\mscomctl.ocx=$(WinSysPath)
+C:\Windows\System32\MSCMCES.DLL=$(WinSysPath)
+C:\Windows\System32\CRYSTL32.OCX=$(WinSysPath)
+C:\Windows\System32\CRPE32.DLL=$(WinSysPath)
+C:\Windows\System32\IMPLODE.DLL=$(WinSysPath)
+C:\Windows\System32\PG32.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\CO2C40EN.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT20.DLL=$(WinSysPathSysFile)
+C:\Windows\Crystal\CRXLAT32.DLL=$(WinPath)\Crystal
+C:\Windows\System32\P2BBND.DLL=$(WinSysPath)
+C:\Windows\System32\P3D4BDES.DLL=$(WinSysPath)
+C:\Windows\System32\P2BDAO.DLL=$(WinSysPath)
+C:\Windows\System32\P3BDAOES.DLL=$(WinSysPath)
+C:\Windows\System32\P2CTDAO.DLL=$(WinSysPath)
+C:\Windows\System32\P3CDAOES.DLL=$(WinSysPath)
+C:\Windows\System32\P2IRDAO.DLL=$(WinSysPath)
+C:\Windows\System32\P3RDAOES.DLL=$(WinSysPath)
+C:\Windows\System32\P2SODBC.DLL=$(WinSysPath)
+C:\Windows\System32\P3S4ODES.DLL=$(WinSysPath)
+C:\Windows\Crystal\U2DDISK.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\X2D4DKES.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\U2DMAPI.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\X2D4MPES.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\U2FCR.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\X2F4CRES.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\U2FDIF.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\X2F4DFES.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\U2FHTML.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\X2F4HTES.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\U2FREC.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\X2F4RCES.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\U2FRTF.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\X2F4RTES.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\U2FSEPV.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\X2F4SVES.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\U2FTEXT.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\X2F4TXES.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\U2FWKS.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\X2F4WKES.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\U2FWORDW.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\X2F4WDES.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\U2FXLS.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\X2F4XLES.DLL=$(WinPath)\Crystal
+C:\Windows\System32\CR2C40ES.DLL=$(WinSysPath)
+C:\Windows\System32\CC245ES.DLL=$(WinSysPath)
+C:\Windows\System32\TABCTL32.OCX=$(WinSysPath)
+C:\Windows\System32\TABCTES.DLL=$(WinSysPath)
+C:\Windows\System32\COMCT332.OCX=$(WinSysPath)
+C:\Windows\System32\CMCT3ES.DLL=$(WinSysPath)
+C:\Program Files\Common Files\DESIGNER\MSDERUN.DLL=$(CommonFiles)\designer
+C:\Windows\System32\MSDBRPTR.DLL=$(WinSysPath)
+C:\Windows\System32\DBRPRES.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\actasin.rpt=$(AppPath)
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\analitic.rpt=$(AppPath)
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\aprobados.rpt=$(AppPath)
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\asistdes.rpt=$(AppPath)
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\asistenc.rpt=$(AppPath)
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\carreras.rpt=$(AppPath)
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\contcorr.rpt=$(AppPath)
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\liscoop.rpt=$(AppPath)
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\listape.rpt=$(AppPath)
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\listpago.rpt=$(AppPath)
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\mesascar.rpt=$(AppPath)
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\mesasdia.rpt=$(AppPath)
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\mesaspro.rpt=$(AppPath)
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\parcial.rpt=$(AppPath)
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\plaanali.rpt=$(AppPath)
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\recibo.rpt=$(AppPath)
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\recupera.rpt=$(AppPath)
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\titulo.rpt=$(AppPath)
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\titulot2.rpt=$(AppPath)
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\titulotf.rpt=$(AppPath)
+
+[Package|SADIS Standar|Configure Shared Files]
+Applicable=Yes
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\Instituto.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\actasin.rpt=No
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\analitic.rpt=No
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\aprobados.rpt=No
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\asistdes.rpt=No
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\asistenc.rpt=No
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\carreras.rpt=No
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\contcorr.rpt=No
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\liscoop.rpt=No
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\listape.rpt=No
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\listpago.rpt=No
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\mesascar.rpt=No
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\mesasdia.rpt=No
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\mesaspro.rpt=No
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\parcial.rpt=No
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\plaanali.rpt=No
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\recibo.rpt=No
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\recupera.rpt=No
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\titulo.rpt=No
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\titulot2.rpt=No
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\titulotf.rpt=No
+
+[Package|SADIS Standar|Distribution]
+Type=single
+Size=
+Title=SADIS
+
+[Package|SADIS Standar|IconGroups]
+Group0=SADIS
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|SADIS Standar|SADIS]
+Icon1=Instituto.exe
+Title1=SADIS
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|SADIS Standar|Package]
+PackageFolder=C:\SADIS Instalacion
+ProjectFolder=C:\BKP\Mis archivos\Instituto\Proyecto\Instituto
+ServerSideCab=
+File1=C:\SADIS Instalacion\setup.exe
+File2=C:\SADIS Instalacion\Setup.Lst
+File3=C:\SADIS Instalacion\Instituto.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|SADIS|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=d:\Mis Archivos\Instituto\Proyecto\SadisSetup
+
+[Package|SADIS|Configure DAO ISAMs]
+Applicable=Yes
+Xbase=No
+Excel=No
+Exchange=No
+Text=No
+Jet 2.x=No
+Lotus=No
+Paradox=No
+
+[Package|SADIS|Configure DAO ODBC]
+JetWorkspace=No
+ODBCDirect=No
+
+[Package|SADIS|Files Found]
+actasin.rpt=D:\Mis Archivos\Instituto\Proyecto\Instituto\actasin.rpt
+
+[Package|SADIS|Files Released]
+titulotf.rpt=
+titulot2.rpt=
+titulo.rpt=
+recupera.rpt=
+recibo.rpt=
+plaanali.rpt=
+parcial.rpt=
+mesaspro.rpt=
+mesasdia.rpt=
+mesascar.rpt=
+listpago.rpt=
+listape.rpt=
+liscoop.rpt=
+contcorr.rpt=
+carreras.rpt=
+asistenc.rpt=
+asistdes.rpt=
+aprobados.rpt=
+analitic.rpt=
+
+[Package|SADIS|Missing Dependency Information]
+C:\Windows\System32\MSSTDFMT.DLL=
+C:\Program Files\Common Files\System\ado\msado25.tlb=
+
+[Package|SADIS|Out-of-Date Dependency Information]
+C:\Windows\System32\CRYSTL32.OCX=
+C:\Windows\System32\MSCOMCTL.OCX=
+C:\Windows\System32\mscomct2.ocx=
+
+[Package|SADIS|Files Added]
+d:\mis archivos\instituto\proyecto\instituto\actasin.rpt=
+D:\Mis Archivos\Instituto\Proyecto\Instituto\analicom.rpt=
+D:\Mis Archivos\Instituto\Proyecto\Instituto\analidet.rpt=
+D:\Mis Archivos\Instituto\Proyecto\Instituto\analitic.rpt=
+D:\Mis Archivos\Instituto\Proyecto\Instituto\aprobados.rpt=
+D:\Mis Archivos\Instituto\Proyecto\Instituto\asistdes.rpt=
+D:\Mis Archivos\Instituto\Proyecto\Instituto\asistenc.rpt=
+D:\Mis Archivos\Instituto\Proyecto\Instituto\avancepo.rpt=
+D:\Mis Archivos\Instituto\Proyecto\Instituto\bajacurs.rpt=
+D:\Mis Archivos\Instituto\Proyecto\Instituto\carreras.rpt=
+D:\Mis Archivos\Instituto\Proyecto\Instituto\contcorr.rpt=
+D:\Mis Archivos\Instituto\Proyecto\Instituto\liscoop.rpt=
+D:\Mis Archivos\Instituto\Proyecto\Instituto\listape.rpt=
+D:\Mis Archivos\Instituto\Proyecto\Instituto\listpago.rpt=
+D:\Mis Archivos\Instituto\Proyecto\Instituto\mesascar.rpt=
+D:\Mis Archivos\Instituto\Proyecto\Instituto\mesasdia.rpt=
+D:\Mis Archivos\Instituto\Proyecto\Instituto\mesaspro.rpt=
+D:\Mis Archivos\Instituto\Proyecto\Instituto\parcial.rpt=
+D:\Mis Archivos\Instituto\Proyecto\Instituto\plaanali.rpt=
+D:\Mis Archivos\Instituto\Proyecto\Instituto\recibo.rpt=
+D:\Mis Archivos\Instituto\Proyecto\Instituto\recupera.rpt=
+D:\Mis Archivos\Instituto\Proyecto\Instituto\titulo.rpt=
+D:\Mis Archivos\Instituto\Proyecto\Instituto\titulot2.rpt=
+D:\Mis Archivos\Instituto\Proyecto\Instituto\titulotf.rpt=
+
+[Package|SADIS|Files Removed]
+c:\windows\system32\msbind.dll=
+c:\windows\system32\mscc2es.dll=
+c:\windows\system32\mscmces.dll=
+c:\windows\system32\mscomct2.ocx=
+c:\windows\system32\msrdo20.dll=
+c:\windows\system32\msrepl35.dll=
+c:\windows\system32\rdo20es.dll=
+c:\windows\system32\rdocurs.dll=
+c:\windows\crystal\x2d4dkes.dll=
+c:\windows\crystal\x2d4mpes.dll=
+c:\windows\crystal\x2f4cres.dll=
+c:\windows\crystal\x2f4dfes.dll=
+c:\windows\crystal\x2f4htes.dll=
+c:\windows\crystal\x2f4rces.dll=
+c:\windows\crystal\x2f4rtes.dll=
+c:\windows\crystal\x2f4sves.dll=
+c:\windows\crystal\x2f4txes.dll=
+c:\windows\crystal\x2f4wdes.dll=
+c:\windows\crystal\x2f4wkes.dll=
+c:\windows\crystal\x2f4xles.dll=
+c:\windows\crystal\u2fxls.dll=
+c:\windows\crystal\u2fwordw.dll=
+c:\windows\crystal\u2fwks.dll=
+c:\windows\crystal\u2ftext.dll=
+c:\windows\crystal\u2fsepv.dll=
+c:\windows\crystal\u2frtf.dll=
+c:\windows\crystal\u2frec.dll=
+c:\windows\crystal\u2fhtml.dll=
+c:\windows\crystal\u2fdif.dll=
+c:\windows\crystal\u2fcr.dll=
+c:\windows\crystal\u2dmapi.dll=
+c:\windows\crystal\u2ddisk.dll=
+c:\windows\crystal\crxlat32.dll=
+c:\windows\system32\crpe32.dll=
+c:\windows\system32\crystl32.ocx=
+
+[Package|SADIS|Files In Project]
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Windows\System32\VB6ES.DLL=Yes
+C:\Windows\System32\MSBIND.DLL=No
+C:\Windows\System32\MSSTDFMT.DLL=Yes
+C:\Program Files\Common Files\microsoft shared\DAO\DAO350.DLL=Yes
+C:\Windows\System32\MSJET35.DLL=Yes
+C:\Windows\System32\MSJTER35.DLL=Yes
+C:\Windows\System32\MSJINT35.DLL=Yes
+C:\Windows\System32\vbajet32.dll=Yes
+C:\Windows\System32\expsrv.dll=Yes
+C:\Windows\System32\MSRD2X35.DLL=Yes
+C:\Windows\System32\MSREPL35.DLL=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\Windows\System32\VB5DB.DLL=Yes
+C:\Windows\System32\MSDATGRD.OCX=Yes
+C:\Windows\System32\DATGDES.DLL=Yes
+C:\Windows\System32\MSADODC.OCX=Yes
+C:\Windows\System32\ADODCES.DLL=Yes
+C:\Windows\System32\MSDATLST.OCX=Yes
+C:\Windows\System32\DATLSES.DLL=Yes
+C:\Windows\System32\mscomct2.ocx=No
+C:\Windows\System32\MSCC2ES.DLL=No
+C:\Windows\System32\mscomctl.ocx=Yes
+C:\Windows\System32\MSCMCES.DLL=No
+C:\Windows\System32\CRYSTL32.OCX=No
+C:\Windows\System32\CRPE32.DLL=No
+C:\Windows\System32\IMPLODE.DLL=Yes
+C:\Windows\System32\PG32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\CO2C40EN.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT20.DLL=Yes
+C:\Windows\Crystal\CRXLAT32.DLL=No
+C:\Windows\System32\P2BBND.DLL=Yes
+C:\Windows\System32\P3D4BDES.DLL=Yes
+C:\Windows\System32\P2BDAO.DLL=Yes
+C:\Windows\System32\P3BDAOES.DLL=Yes
+C:\Windows\System32\P2CTDAO.DLL=Yes
+C:\Windows\System32\P3CDAOES.DLL=Yes
+C:\Windows\System32\P2IRDAO.DLL=Yes
+C:\Windows\System32\P3RDAOES.DLL=Yes
+C:\Windows\System32\P2SODBC.DLL=Yes
+C:\Windows\System32\P3S4ODES.DLL=Yes
+C:\Windows\Crystal\U2DDISK.DLL=No
+C:\Windows\Crystal\X2D4DKES.DLL=No
+C:\Windows\Crystal\U2DMAPI.DLL=No
+C:\Windows\Crystal\X2D4MPES.DLL=No
+C:\Windows\Crystal\U2FCR.DLL=No
+C:\Windows\Crystal\X2F4CRES.DLL=No
+C:\Windows\Crystal\U2FDIF.DLL=No
+C:\Windows\Crystal\X2F4DFES.DLL=No
+C:\Windows\Crystal\U2FHTML.DLL=No
+C:\Windows\Crystal\X2F4HTES.DLL=No
+C:\Windows\Crystal\U2FREC.DLL=No
+C:\Windows\Crystal\X2F4RCES.DLL=No
+C:\Windows\Crystal\U2FRTF.DLL=No
+C:\Windows\Crystal\X2F4RTES.DLL=No
+C:\Windows\Crystal\U2FSEPV.DLL=No
+C:\Windows\Crystal\X2F4SVES.DLL=No
+C:\Windows\Crystal\U2FTEXT.DLL=No
+C:\Windows\Crystal\X2F4TXES.DLL=No
+C:\Windows\Crystal\U2FWKS.DLL=No
+C:\Windows\Crystal\X2F4WKES.DLL=No
+C:\Windows\Crystal\U2FWORDW.DLL=No
+C:\Windows\Crystal\X2F4WDES.DLL=No
+C:\Windows\Crystal\U2FXLS.DLL=No
+C:\Windows\Crystal\X2F4XLES.DLL=No
+C:\Windows\System32\CR2C40ES.DLL=Yes
+C:\Windows\System32\CC245ES.DLL=Yes
+C:\Windows\System32\TABCTL32.OCX=Yes
+C:\Windows\System32\TABCTES.DLL=Yes
+C:\Program Files\Common Files\DESIGNER\MSDERUN.DLL=Yes
+C:\Windows\System32\MSDBRPTR.DLL=Yes
+C:\Windows\System32\DBRPRES.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\Mis Archivos\Instituto\Proyecto\Instituto\Instituto.exe=Yes
+C:\Windows\System32\MSHFLXGD.OCX=Yes
+C:\Windows\System32\MSHFGES.DLL=Yes
+C:\Windows\System32\MSMASK32.OCX=Yes
+C:\Windows\System32\MSMSKES.DLL=Yes
+D:\Mis Archivos\Instituto\Proyecto\Instituto\actasin.rpt=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Windows\System32\STDFTES.DLL=Yes
+D:\Mis Archivos\Instituto\Proyecto\Instituto\analicom.rpt=Yes
+D:\Mis Archivos\Instituto\Proyecto\Instituto\analidet.rpt=Yes
+D:\Mis Archivos\Instituto\Proyecto\Instituto\analitic.rpt=Yes
+D:\Mis Archivos\Instituto\Proyecto\Instituto\aprobados.rpt=Yes
+D:\Mis Archivos\Instituto\Proyecto\Instituto\asistdes.rpt=Yes
+D:\Mis Archivos\Instituto\Proyecto\Instituto\asistenc.rpt=Yes
+D:\Mis Archivos\Instituto\Proyecto\Instituto\avancepo.rpt=Yes
+D:\Mis Archivos\Instituto\Proyecto\Instituto\bajacurs.rpt=Yes
+D:\Mis Archivos\Instituto\Proyecto\Instituto\carreras.rpt=Yes
+D:\Mis Archivos\Instituto\Proyecto\Instituto\contcorr.rpt=Yes
+D:\Mis Archivos\Instituto\Proyecto\Instituto\liscoop.rpt=Yes
+D:\Mis Archivos\Instituto\Proyecto\Instituto\listape.rpt=Yes
+D:\Mis Archivos\Instituto\Proyecto\Instituto\listpago.rpt=Yes
+D:\Mis Archivos\Instituto\Proyecto\Instituto\mesascar.rpt=Yes
+D:\Mis Archivos\Instituto\Proyecto\Instituto\mesasdia.rpt=Yes
+D:\Mis Archivos\Instituto\Proyecto\Instituto\mesaspro.rpt=Yes
+D:\Mis Archivos\Instituto\Proyecto\Instituto\parcial.rpt=Yes
+D:\Mis Archivos\Instituto\Proyecto\Instituto\plaanali.rpt=Yes
+D:\Mis Archivos\Instituto\Proyecto\Instituto\recibo.rpt=Yes
+D:\Mis Archivos\Instituto\Proyecto\Instituto\recupera.rpt=Yes
+D:\Mis Archivos\Instituto\Proyecto\Instituto\titulo.rpt=Yes
+D:\Mis Archivos\Instituto\Proyecto\Instituto\titulot2.rpt=Yes
+D:\Mis Archivos\Instituto\Proyecto\Instituto\titulotf.rpt=Yes
+
+[Package|SADIS|Configure Registry Files]
+Applicable=No
+
+[Package|SADIS|Configure Remote Servers]
+Applicable=No
+
+[Package|SADIS|Install Locations]
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\Instituto.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\VB6ES.DLL=$(WinSysPath)
+C:\Windows\System32\MSBIND.DLL=$(WinSysPath)
+C:\Windows\System32\MSSTDFMT.DLL=$(WinSysPath)
+C:\Windows\System32\STDFTES.DLL=$(WinSysPath)
+C:\Program Files\Common Files\microsoft shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\Windows\System32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\vbajet32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\expsrv.dll=$(WinSysPathSysFile)
+C:\Windows\System32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\VB5DB.DLL=$(WinSysPath)
+C:\Windows\System32\MSDATGRD.OCX=$(WinSysPath)
+C:\Windows\System32\DATGDES.DLL=$(WinSysPath)
+C:\Windows\System32\MSADODC.OCX=$(WinSysPath)
+C:\Windows\System32\ADODCES.DLL=$(WinSysPath)
+C:\Windows\System32\MSDATLST.OCX=$(WinSysPath)
+C:\Windows\System32\DATLSES.DLL=$(WinSysPath)
+C:\Windows\System32\mscomct2.ocx=$(WinSysPath)
+C:\Windows\System32\MSCC2ES.DLL=$(WinSysPath)
+C:\Windows\System32\mscomctl.ocx=$(WinSysPath)
+C:\Windows\System32\MSCMCES.DLL=$(WinSysPath)
+C:\Windows\System32\CRYSTL32.OCX=$(WinSysPath)
+C:\Windows\System32\CRPE32.DLL=$(WinSysPath)
+C:\Windows\System32\IMPLODE.DLL=$(WinSysPath)
+C:\Windows\System32\PG32.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\CO2C40EN.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT20.DLL=$(WinSysPathSysFile)
+C:\Windows\Crystal\CRXLAT32.DLL=$(WinPath)\Crystal
+C:\Windows\System32\P2BBND.DLL=$(WinSysPath)
+C:\Windows\System32\P3D4BDES.DLL=$(WinSysPath)
+C:\Windows\System32\P2BDAO.DLL=$(WinSysPath)
+C:\Windows\System32\P3BDAOES.DLL=$(WinSysPath)
+C:\Windows\System32\P2CTDAO.DLL=$(WinSysPath)
+C:\Windows\System32\P3CDAOES.DLL=$(WinSysPath)
+C:\Windows\System32\P2IRDAO.DLL=$(WinSysPath)
+C:\Windows\System32\P3RDAOES.DLL=$(WinSysPath)
+C:\Windows\System32\P2SODBC.DLL=$(WinSysPath)
+C:\Windows\System32\P3S4ODES.DLL=$(WinSysPath)
+C:\Windows\Crystal\U2DDISK.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\X2D4DKES.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\U2DMAPI.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\X2D4MPES.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\U2FCR.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\X2F4CRES.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\U2FDIF.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\X2F4DFES.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\U2FHTML.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\X2F4HTES.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\U2FREC.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\X2F4RCES.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\U2FRTF.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\X2F4RTES.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\U2FSEPV.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\X2F4SVES.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\U2FTEXT.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\X2F4TXES.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\U2FWKS.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\X2F4WKES.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\U2FWORDW.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\X2F4WDES.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\U2FXLS.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\X2F4XLES.DLL=$(WinPath)\Crystal
+C:\Windows\System32\CR2C40ES.DLL=$(WinSysPath)
+C:\Windows\System32\CC245ES.DLL=$(WinSysPath)
+C:\Windows\System32\TABCTL32.OCX=$(WinSysPath)
+C:\Windows\System32\TABCTES.DLL=$(WinSysPath)
+C:\Windows\System32\COMCT332.OCX=$(WinSysPath)
+C:\Windows\System32\CMCT3ES.DLL=$(WinSysPath)
+C:\Program Files\Common Files\DESIGNER\MSDERUN.DLL=$(CommonFiles)\designer
+C:\Windows\System32\MSDBRPTR.DLL=$(WinSysPath)
+C:\Windows\System32\DBRPRES.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\actasin.rpt=$(AppPath)
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\analitic.rpt=$(AppPath)
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\aprobados.rpt=$(AppPath)
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\asistdes.rpt=$(AppPath)
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\asistenc.rpt=$(AppPath)
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\carreras.rpt=$(AppPath)
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\contcorr.rpt=$(AppPath)
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\liscoop.rpt=$(AppPath)
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\listape.rpt=$(AppPath)
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\listpago.rpt=$(AppPath)
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\mesascar.rpt=$(AppPath)
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\mesasdia.rpt=$(AppPath)
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\mesaspro.rpt=$(AppPath)
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\parcial.rpt=$(AppPath)
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\plaanali.rpt=$(AppPath)
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\recibo.rpt=$(AppPath)
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\recupera.rpt=$(AppPath)
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\titulo.rpt=$(AppPath)
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\titulot2.rpt=$(AppPath)
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\titulotf.rpt=$(AppPath)
+D:\Mis Archivos\Instituto\Proyecto\Instituto\Instituto.exe=$(AppPath)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Common Files\System\ado\msado25.tlb=$(WinSysPath)
+C:\Windows\System32\MSHFLXGD.OCX=$(WinSysPath)
+C:\Windows\System32\MSHFGES.DLL=$(WinSysPath)
+C:\Windows\System32\MSMASK32.OCX=$(WinSysPath)
+C:\Windows\System32\MSMSKES.DLL=$(WinSysPath)
+C:\Windows\System32\MSRDO20.DLL=$(WinSysPath)
+C:\Windows\System32\RDOCURS.DLL=$(WinSysPath)
+C:\Windows\System32\RDO20ES.DLL=$(WinSysPath)
+D:\Mis Archivos\Instituto\Proyecto\Instituto\actasin.rpt=$(AppPath)
+D:\Mis Archivos\Instituto\Proyecto\Instituto\analitic.rpt=$(AppPath)
+D:\Mis Archivos\Instituto\Proyecto\Instituto\aprobados.rpt=$(AppPath)
+D:\Mis Archivos\Instituto\Proyecto\Instituto\asistdes.rpt=$(AppPath)
+D:\Mis Archivos\Instituto\Proyecto\Instituto\asistenc.rpt=$(AppPath)
+D:\Mis Archivos\Instituto\Proyecto\Instituto\carreras.rpt=$(AppPath)
+D:\Mis Archivos\Instituto\Proyecto\Instituto\contcorr.rpt=$(AppPath)
+D:\Mis Archivos\Instituto\Proyecto\Instituto\liscoop.rpt=$(AppPath)
+D:\Mis Archivos\Instituto\Proyecto\Instituto\listape.rpt=$(AppPath)
+D:\Mis Archivos\Instituto\Proyecto\Instituto\listpago.rpt=$(AppPath)
+D:\Mis Archivos\Instituto\Proyecto\Instituto\mesascar.rpt=$(AppPath)
+D:\Mis Archivos\Instituto\Proyecto\Instituto\mesasdia.rpt=$(AppPath)
+D:\Mis Archivos\Instituto\Proyecto\Instituto\mesaspro.rpt=$(AppPath)
+D:\Mis Archivos\Instituto\Proyecto\Instituto\parcial.rpt=$(AppPath)
+D:\Mis Archivos\Instituto\Proyecto\Instituto\plaanali.rpt=$(AppPath)
+D:\Mis Archivos\Instituto\Proyecto\Instituto\recibo.rpt=$(AppPath)
+D:\Mis Archivos\Instituto\Proyecto\Instituto\recupera.rpt=$(AppPath)
+D:\Mis Archivos\Instituto\Proyecto\Instituto\titulo.rpt=$(AppPath)
+D:\Mis Archivos\Instituto\Proyecto\Instituto\titulot2.rpt=$(AppPath)
+D:\Mis Archivos\Instituto\Proyecto\Instituto\titulotf.rpt=$(AppPath)
+D:\Mis Archivos\Instituto\Proyecto\Instituto\analicom.rpt=$(AppPath)
+D:\Mis Archivos\Instituto\Proyecto\Instituto\analidet.rpt=$(AppPath)
+D:\Mis Archivos\Instituto\Proyecto\Instituto\avancepo.rpt=$(AppPath)
+D:\Mis Archivos\Instituto\Proyecto\Instituto\bajacurs.rpt=$(AppPath)
+
+[Package|SADIS|Configure Shared Files]
+Applicable=Yes
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\Instituto.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\actasin.rpt=No
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\analitic.rpt=No
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\aprobados.rpt=No
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\asistdes.rpt=No
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\asistenc.rpt=No
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\carreras.rpt=No
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\contcorr.rpt=No
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\liscoop.rpt=No
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\listape.rpt=No
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\listpago.rpt=No
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\mesascar.rpt=No
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\mesasdia.rpt=No
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\mesaspro.rpt=No
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\parcial.rpt=No
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\plaanali.rpt=No
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\recibo.rpt=No
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\recupera.rpt=No
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\titulo.rpt=No
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\titulot2.rpt=No
+C:\BKP\Mis archivos\Instituto\Proyecto\Instituto\titulotf.rpt=No
+D:\Mis Archivos\Instituto\Proyecto\Instituto\Instituto.exe=No
+D:\Mis Archivos\Instituto\Proyecto\Instituto\actasin.rpt=No
+D:\Mis Archivos\Instituto\Proyecto\Instituto\analitic.rpt=No
+D:\Mis Archivos\Instituto\Proyecto\Instituto\aprobados.rpt=No
+D:\Mis Archivos\Instituto\Proyecto\Instituto\asistdes.rpt=No
+D:\Mis Archivos\Instituto\Proyecto\Instituto\asistenc.rpt=No
+D:\Mis Archivos\Instituto\Proyecto\Instituto\carreras.rpt=No
+D:\Mis Archivos\Instituto\Proyecto\Instituto\contcorr.rpt=No
+D:\Mis Archivos\Instituto\Proyecto\Instituto\liscoop.rpt=No
+D:\Mis Archivos\Instituto\Proyecto\Instituto\listape.rpt=No
+D:\Mis Archivos\Instituto\Proyecto\Instituto\listpago.rpt=No
+D:\Mis Archivos\Instituto\Proyecto\Instituto\mesascar.rpt=No
+D:\Mis Archivos\Instituto\Proyecto\Instituto\mesasdia.rpt=No
+D:\Mis Archivos\Instituto\Proyecto\Instituto\mesaspro.rpt=No
+D:\Mis Archivos\Instituto\Proyecto\Instituto\parcial.rpt=No
+D:\Mis Archivos\Instituto\Proyecto\Instituto\plaanali.rpt=No
+D:\Mis Archivos\Instituto\Proyecto\Instituto\recibo.rpt=No
+D:\Mis Archivos\Instituto\Proyecto\Instituto\recupera.rpt=No
+D:\Mis Archivos\Instituto\Proyecto\Instituto\titulo.rpt=No
+D:\Mis Archivos\Instituto\Proyecto\Instituto\titulot2.rpt=No
+D:\Mis Archivos\Instituto\Proyecto\Instituto\titulotf.rpt=No
+D:\Mis Archivos\Instituto\Proyecto\Instituto\analicom.rpt=No
+D:\Mis Archivos\Instituto\Proyecto\Instituto\analidet.rpt=No
+D:\Mis Archivos\Instituto\Proyecto\Instituto\avancepo.rpt=No
+D:\Mis Archivos\Instituto\Proyecto\Instituto\bajacurs.rpt=No
+
+[Package|SADIS|Distribution]
+Type=single
+Size=
+Title=SADIS
+
+[Package|SADIS|Package]
+PackageFolder=d:\Mis Archivos\Instituto\Proyecto\SadisSetup
+ProjectFolder=D:\Mis Archivos\Instituto\Proyecto\Instituto
+ServerSideCab=
+File1=d:\Mis Archivos\Instituto\Proyecto\SadisSetup\setup.exe
+File2=d:\Mis Archivos\Instituto\Proyecto\SadisSetup\Setup.Lst
+File3=d:\Mis Archivos\Instituto\Proyecto\SadisSetup\Instituto.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|SADIS|IconGroups]
+Group0=SADIS
+PrivateGroup0=0
+Parent0=$(Programs)
+
+[Package|SADIS|SADIS]
+Icon1=Instituto.exe
+Title1=SADIS
+StartIn1=$(AppPath)
+Key1=Icon1
+
+
+[Package|Paquete de instalación estándar 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Mis Archivos\Instituto\Proyecto\Instituto\Paquete
+
+[Package|Paquete de instalación estándar 1|Configure DAO ISAMs]
+Applicable=Yes
+Xbase=No
+Excel=No
+Exchange=No
+Text=No
+Jet 2.x=No
+Lotus=No
+Paradox=No
+
+[Package|Paquete de instalación estándar 1|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|Paquete de instalación estándar 1|Files Found]
+
+[Package|Paquete de instalación estándar 1|Files Released]
+
+[Package|Paquete de instalación estándar 1|Missing Dependency Information]
+
+[Package|Paquete de instalación estándar 1|Out-of-Date Dependency Information]
+C:\Windows\System32\CRYSTL32.OCX=
+
+[Package|Paquete de instalación estándar 1|Files Added]
+
+[Package|Paquete de instalación estándar 1|Files Removed]
+
+[Package|Paquete de instalación estándar 1|Files In Project]
+D:\Mis Archivos\Instituto\Proyecto\Instituto\Instituto.exe=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Windows\System32\VB6ES.DLL=Yes
+C:\Windows\System32\MSBIND.DLL=Yes
+C:\Windows\System32\MSSTDFMT.DLL=Yes
+C:\Windows\System32\STDFTES.DLL=Yes
+C:\Program Files\Common Files\microsoft shared\DAO\DAO350.DLL=Yes
+C:\Windows\System32\MSJET35.DLL=Yes
+C:\Windows\System32\MSJTER35.DLL=Yes
+C:\Windows\System32\MSJINT35.DLL=Yes
+C:\Windows\System32\vbajet32.dll=Yes
+C:\Windows\System32\expsrv.dll=Yes
+C:\Windows\System32\MSRD2X35.DLL=Yes
+C:\Windows\System32\MSREPL35.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\Windows\System32\VB5DB.DLL=Yes
+C:\Windows\System32\MSDATGRD.OCX=Yes
+C:\Windows\System32\DATGDES.DLL=Yes
+C:\Windows\System32\MSADODC.OCX=Yes
+C:\Windows\System32\ADODCES.DLL=Yes
+C:\Windows\System32\MSDATLST.OCX=Yes
+C:\Windows\System32\DATLSES.DLL=Yes
+C:\Windows\System32\mscomct2.ocx=Yes
+C:\Windows\System32\MSCC2ES.DLL=Yes
+C:\Windows\System32\MSCOMCTL.OCX=Yes
+C:\Windows\System32\MSCMCES.DLL=Yes
+C:\Windows\System32\CRYSTL32.OCX=Yes
+C:\Windows\System32\CRPE32.DLL=Yes
+C:\Windows\System32\IMPLODE.DLL=Yes
+C:\Windows\System32\PG32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\CO2C40EN.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT20.DLL=Yes
+C:\Windows\Crystal\CRXLAT32.DLL=Yes
+C:\Windows\System32\P2BBND.DLL=Yes
+C:\Windows\System32\P3D4BDES.DLL=Yes
+C:\Windows\System32\P2BDAO.DLL=Yes
+C:\Windows\System32\P3BDAOES.DLL=Yes
+C:\Windows\System32\P2CTDAO.DLL=Yes
+C:\Windows\System32\P3CDAOES.DLL=Yes
+C:\Windows\System32\P2IRDAO.DLL=Yes
+C:\Windows\System32\P3RDAOES.DLL=Yes
+C:\Windows\System32\P2SODBC.DLL=Yes
+C:\Windows\System32\P3S4ODES.DLL=Yes
+C:\Windows\Crystal\U2DDISK.DLL=Yes
+C:\Windows\Crystal\X2D4DKES.DLL=Yes
+C:\Windows\Crystal\U2DMAPI.DLL=Yes
+C:\Windows\Crystal\X2D4MPES.DLL=Yes
+C:\Windows\Crystal\U2FCR.DLL=Yes
+C:\Windows\Crystal\X2F4CRES.DLL=Yes
+C:\Windows\Crystal\U2FDIF.DLL=Yes
+C:\Windows\Crystal\X2F4DFES.DLL=Yes
+C:\Windows\Crystal\U2FHTML.DLL=Yes
+C:\Windows\Crystal\X2F4HTES.DLL=Yes
+C:\Windows\Crystal\U2FREC.DLL=Yes
+C:\Windows\Crystal\X2F4RCES.DLL=Yes
+C:\Windows\Crystal\U2FRTF.DLL=Yes
+C:\Windows\Crystal\X2F4RTES.DLL=Yes
+C:\Windows\Crystal\U2FSEPV.DLL=Yes
+C:\Windows\Crystal\X2F4SVES.DLL=Yes
+C:\Windows\Crystal\U2FTEXT.DLL=Yes
+C:\Windows\Crystal\X2F4TXES.DLL=Yes
+C:\Windows\Crystal\U2FWKS.DLL=Yes
+C:\Windows\Crystal\X2F4WKES.DLL=Yes
+C:\Windows\Crystal\U2FWORDW.DLL=Yes
+C:\Windows\Crystal\X2F4WDES.DLL=Yes
+C:\Windows\Crystal\U2FXLS.DLL=Yes
+C:\Windows\Crystal\X2F4XLES.DLL=Yes
+C:\Windows\System32\CR2C40ES.DLL=Yes
+C:\Windows\System32\CC245ES.DLL=Yes
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=Yes
+C:\Windows\System32\MSDBRPTR.DLL=Yes
+C:\Windows\System32\DBRPRES.DLL=Yes
+C:\Windows\System32\MSHFLXGD.OCX=Yes
+C:\Windows\System32\MSHFGES.DLL=Yes
+C:\Windows\System32\TABCTL32.OCX=Yes
+C:\Windows\System32\TABCTES.DLL=Yes
+C:\Windows\System32\MSMASK32.OCX=Yes
+C:\Windows\System32\MSMSKES.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Windows\System32\MSRDO20.DLL=Yes
+C:\Windows\System32\RDOCURS.DLL=Yes
+C:\Windows\System32\RDO20ES.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Paquete de instalación estándar 1|Configure Registry Files]
+Applicable=No
+
+[Package|Paquete de instalación estándar 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Paquete de instalación estándar 1|Install Locations]
+D:\Mis Archivos\Instituto\Proyecto\Instituto\Instituto.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\VB6ES.DLL=$(WinSysPath)
+C:\Windows\System32\MSBIND.DLL=$(WinSysPath)
+C:\Windows\System32\MSSTDFMT.DLL=$(WinSysPath)
+C:\Windows\System32\STDFTES.DLL=$(WinSysPath)
+C:\Program Files\Common Files\microsoft shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\Windows\System32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\vbajet32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\expsrv.dll=$(WinSysPathSysFile)
+C:\Windows\System32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\VB5DB.DLL=$(WinSysPath)
+C:\Windows\System32\MSDATGRD.OCX=$(WinSysPath)
+C:\Windows\System32\DATGDES.DLL=$(WinSysPath)
+C:\Windows\System32\MSADODC.OCX=$(WinSysPath)
+C:\Windows\System32\ADODCES.DLL=$(WinSysPath)
+C:\Windows\System32\MSDATLST.OCX=$(WinSysPath)
+C:\Windows\System32\DATLSES.DLL=$(WinSysPath)
+C:\Windows\System32\mscomct2.ocx=$(WinSysPath)
+C:\Windows\System32\MSCC2ES.DLL=$(WinSysPath)
+C:\Windows\System32\MSCOMCTL.OCX=$(WinSysPath)
+C:\Windows\System32\MSCMCES.DLL=$(WinSysPath)
+C:\Windows\System32\CRYSTL32.OCX=$(WinSysPath)
+C:\Windows\System32\CRPE32.DLL=$(WinSysPath)
+C:\Windows\System32\IMPLODE.DLL=$(WinSysPath)
+C:\Windows\System32\PG32.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\CO2C40EN.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT20.DLL=$(WinSysPathSysFile)
+C:\Windows\Crystal\CRXLAT32.DLL=$(WinPath)\Crystal
+C:\Windows\System32\P2BBND.DLL=$(WinSysPath)
+C:\Windows\System32\P3D4BDES.DLL=$(WinSysPath)
+C:\Windows\System32\P2BDAO.DLL=$(WinSysPath)
+C:\Windows\System32\P3BDAOES.DLL=$(WinSysPath)
+C:\Windows\System32\P2CTDAO.DLL=$(WinSysPath)
+C:\Windows\System32\P3CDAOES.DLL=$(WinSysPath)
+C:\Windows\System32\P2IRDAO.DLL=$(WinSysPath)
+C:\Windows\System32\P3RDAOES.DLL=$(WinSysPath)
+C:\Windows\System32\P2SODBC.DLL=$(WinSysPath)
+C:\Windows\System32\P3S4ODES.DLL=$(WinSysPath)
+C:\Windows\Crystal\U2DDISK.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\X2D4DKES.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\U2DMAPI.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\X2D4MPES.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\U2FCR.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\X2F4CRES.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\U2FDIF.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\X2F4DFES.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\U2FHTML.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\X2F4HTES.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\U2FREC.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\X2F4RCES.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\U2FRTF.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\X2F4RTES.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\U2FSEPV.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\X2F4SVES.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\U2FTEXT.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\X2F4TXES.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\U2FWKS.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\X2F4WKES.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\U2FWORDW.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\X2F4WDES.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\U2FXLS.DLL=$(WinPath)\Crystal
+C:\Windows\Crystal\X2F4XLES.DLL=$(WinPath)\Crystal
+C:\Windows\System32\CR2C40ES.DLL=$(WinSysPath)
+C:\Windows\System32\CC245ES.DLL=$(WinSysPath)
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\Windows\System32\MSDBRPTR.DLL=$(WinSysPath)
+C:\Windows\System32\DBRPRES.DLL=$(WinSysPath)
+C:\Windows\System32\MSHFLXGD.OCX=$(WinSysPath)
+C:\Windows\System32\MSHFGES.DLL=$(WinSysPath)
+C:\Windows\System32\TABCTL32.OCX=$(WinSysPath)
+C:\Windows\System32\TABCTES.DLL=$(WinSysPath)
+C:\Windows\System32\MSMASK32.OCX=$(WinSysPath)
+C:\Windows\System32\MSMSKES.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Windows\System32\MSRDO20.DLL=$(WinSysPath)
+C:\Windows\System32\RDOCURS.DLL=$(WinSysPath)
+C:\Windows\System32\RDO20ES.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Paquete de instalación estándar 1|Configure Shared Files]
+Applicable=Yes
+D:\Mis Archivos\Instituto\Proyecto\Instituto\Instituto.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+
+[Package|Paquete de instalación estándar 1|Distribution]
+Type=single
+Size=
+Title=Sadis Setup
+
+[Package|Paquete de instalación estándar 1|IconGroups]
+Group0=Sadis Setup
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Paquete de instalación estándar 1|Sadis Setup]
+Icon1=Instituto.exe
+Title1=Sadis Setup
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Paquete de instalación estándar 1|Package]
+PackageFolder=D:\Mis Archivos\Instituto\Proyecto\Instituto\Paquete
+ProjectFolder=D:\Mis Archivos\Instituto\Proyecto\Instituto
+ServerSideCab=
+File1=D:\Mis Archivos\Instituto\Proyecto\Instituto\Paquete\setup.exe
+File2=D:\Mis Archivos\Instituto\Proyecto\Instituto\Paquete\Setup.Lst
+File3=D:\Mis Archivos\Instituto\Proyecto\Instituto\Paquete\Instituto.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

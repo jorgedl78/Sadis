@@ -1,0 +1,128 @@
+VERSION 5.00
+Begin {C0E45035-5775-11D0-B388-00A0C9055D8E} DataEnvironment1 
+   ClientHeight    =   9600
+   ClientLeft      =   0
+   ClientTop       =   0
+   ClientWidth     =   17208
+   _ExtentX        =   30353
+   _ExtentY        =   16933
+   FolderFlags     =   1
+   TypeLibGuid     =   "{93B8C05E-B1EF-4B97-B7C8-70548519A2F2}"
+   TypeInfoGuid    =   "{B44952DF-4EBA-4387-862A-7D6F375E630A}"
+   TypeInfoCookie  =   0
+   Version         =   4
+   NumConnections  =   1
+   BeginProperty Connection1 
+      ConnectionName  =   "Connection1"
+      ConnDispId      =   1001
+      SourceOfData    =   3
+      ConnectionSource=   "Provider=MSDASQL.1;Persist Security Info=False;Data Source=Instituto"
+      Expanded        =   -1  'True
+      QuoteChar       =   96
+      SeparatorChar   =   46
+   EndProperty
+   NumRecordsets   =   1
+   BeginProperty Recordset1 
+      CommandName     =   "Movimientos"
+      CommDispId      =   1002
+      RsDispId        =   1021
+      CommandText     =   "SELECT * FROM Movimientos ORDER BY Desde"
+      ActiveConnectionName=   "Connection1"
+      CommandType     =   1
+      CursorType      =   1
+      Locktype        =   3
+      CommandCursorLocation=   2
+      Expanded        =   -1  'True
+      IsRSReturning   =   -1  'True
+      NumFields       =   10
+      BeginProperty Field1 
+         Precision       =   10
+         Size            =   4
+         Scale           =   0
+         Type            =   3
+         Name            =   "CodPersonal"
+         Caption         =   "CodPersonal"
+      EndProperty
+      BeginProperty Field2 
+         Precision       =   0
+         Size            =   50
+         Scale           =   0
+         Type            =   202
+         Name            =   "CodCarrera"
+         Caption         =   "CodCarrera"
+      EndProperty
+      BeginProperty Field3 
+         Precision       =   0
+         Size            =   40
+         Scale           =   0
+         Type            =   202
+         Name            =   "Carrera"
+         Caption         =   "Carrera"
+      EndProperty
+      BeginProperty Field4 
+         Precision       =   0
+         Size            =   2
+         Scale           =   0
+         Type            =   202
+         Name            =   "Año"
+         Caption         =   "Año"
+      EndProperty
+      BeginProperty Field5 
+         Precision       =   0
+         Size            =   50
+         Scale           =   0
+         Type            =   202
+         Name            =   "Asignatura"
+         Caption         =   "Asignatura"
+      EndProperty
+      BeginProperty Field6 
+         Precision       =   0
+         Size            =   2
+         Scale           =   0
+         Type            =   202
+         Name            =   "Horas"
+         Caption         =   "Horas"
+      EndProperty
+      BeginProperty Field7 
+         Precision       =   0
+         Size            =   2
+         Scale           =   0
+         Type            =   202
+         Name            =   "Modulos"
+         Caption         =   "Modulos"
+      EndProperty
+      BeginProperty Field8 
+         Precision       =   0
+         Size            =   11
+         Scale           =   0
+         Type            =   202
+         Name            =   "Revista"
+         Caption         =   "Revista"
+      EndProperty
+      BeginProperty Field9 
+         Precision       =   19
+         Size            =   16
+         Scale           =   0
+         Type            =   135
+         Name            =   "Desde"
+         Caption         =   "Desde"
+      EndProperty
+      BeginProperty Field10 
+         Precision       =   0
+         Size            =   10
+         Scale           =   0
+         Type            =   202
+         Name            =   "Hasta"
+         Caption         =   "Hasta"
+      EndProperty
+      NumGroups       =   0
+      ParamCount      =   0
+      RelationCount   =   0
+      AggregateCount  =   0
+   EndProperty
+End
+Attribute VB_Name = "DataEnvironment1"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False

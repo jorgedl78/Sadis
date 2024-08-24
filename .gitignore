@@ -1,0 +1,6 @@
+*.exe
+*.tmp
+*.log
+*.obj
+/Servicios old/
+

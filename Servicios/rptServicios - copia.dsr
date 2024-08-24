@@ -1,0 +1,699 @@
+VERSION 5.00
+Begin {78E93846-85FD-11D0-8487-00A0C90DC8A9} rptServicios 
+   Bindings        =   "rptServicios.dsx":0000
+   BorderStyle     =   1  'Fixed Single
+   Caption         =   "Certificación de Servicios"
+   ClientHeight    =   8070
+   ClientLeft      =   45
+   ClientTop       =   330
+   ClientWidth     =   11310
+   MaxButton       =   0   'False
+   MDIChild        =   -1  'True
+   Visible         =   0   'False
+   _ExtentX        =   19950
+   _ExtentY        =   14235
+   _Version        =   393216
+   _DesignerVersion=   100688210
+   ReportWidth     =   10995
+   BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+      Name            =   "Arial"
+      Size            =   8.25
+      Charset         =   0
+      Weight          =   400
+      Underline       =   0   'False
+      Italic          =   0   'False
+      Strikethrough   =   0   'False
+   EndProperty
+   GridX           =   1
+   GridY           =   1
+   LeftMargin      =   510
+   RightMargin     =   650
+   TopMargin       =   450
+   BottomMargin    =   750
+   _Settings       =   6
+   DataMember      =   "Movimientos"
+   NumSections     =   5
+   SectionCode0    =   1
+   BeginProperty Section0 {1C13A8E0-A0B6-11D0-848E-00A0C90DC8A9} 
+      _Version        =   393216
+      Name            =   "Sección4"
+      Object.Height          =   2520
+      NumControls     =   9
+      ItemType0       =   3
+      BeginProperty Item0 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lblCertifico"
+         Object.Top             =   1815
+         Object.Width           =   10980
+         Object.Height          =   585
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   9.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   $"rptServicios.dsx":001F
+      EndProperty
+      ItemType1       =   3
+      BeginProperty Item1 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta24"
+         Object.Top             =   1350
+         Object.Width           =   10980
+         Object.Height          =   390
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   12
+            Charset         =   0
+            Weight          =   700
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "CERTIFICACIÓN DE SERVICIOS"
+         Alignment       =   2
+      EndProperty
+      ItemType2       =   3
+      BeginProperty Item2 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta19"
+         Object.Left            =   1155
+         Object.Width           =   6900
+         Object.Height          =   240
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   11.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "PROVINCIA DE BUENOS AIRES"
+      EndProperty
+      ItemType3       =   3
+      BeginProperty Item3 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta20"
+         Object.Left            =   1140
+         Object.Top             =   240
+         Object.Width           =   6900
+         Object.Height          =   255
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   11.25
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "DIRECCIÓN GENERAL DE CULTURA Y EDUCACIÓN"
+      EndProperty
+      ItemType4       =   3
+      BeginProperty Item4 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta21"
+         Object.Left            =   1140
+         Object.Top             =   495
+         Object.Width           =   6900
+         Object.Height          =   255
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   11.25
+            Charset         =   0
+            Weight          =   700
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "DIRECCIÓN PROVINCIAL DE EDUCACIÓN SUPERIOR"
+      EndProperty
+      ItemType5       =   3
+      BeginProperty Item5 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta22"
+         Object.Left            =   1140
+         Object.Top             =   750
+         Object.Width           =   6900
+         Object.Height          =   240
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   11.25
+            Charset         =   0
+            Weight          =   700
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "Instituto Superior de Formación Docente y Técnica N° 20  - Junín"
+      EndProperty
+      ItemType6       =   6
+      BeginProperty Item6 {1C13A8E4-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Forma6"
+         Object.Top             =   1080
+         Object.Width           =   10995
+         Object.Height          =   15
+         BackColor       =   0
+         BackStyle       =   1
+      EndProperty
+      ItemType7       =   7
+      BeginProperty Item7 {1C13A8E5-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Image1"
+         Object.Top             =   15
+         Object.Width           =   1050
+         Object.Height          =   975
+         Picture         =   "rptServicios.dsx":0109
+         SizeMode        =   2
+      EndProperty
+      ItemType8       =   7
+      BeginProperty Item8 {1C13A8E5-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Image2"
+         Object.Left            =   8295
+         Object.Width           =   2700
+         Object.Height          =   990
+         Picture         =   "rptServicios.dsx":198D
+         SizeMode        =   2
+      EndProperty
+   EndProperty
+   SectionCode1    =   2
+   BeginProperty Section1 {1C13A8E0-A0B6-11D0-848E-00A0C90DC8A9} 
+      _Version        =   393216
+      Name            =   "Sección2"
+      Object.Height          =   315
+      NumControls     =   9
+      ItemType0       =   3
+      BeginProperty Item0 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lblCarrera"
+         Object.Top             =   30
+         Object.Width           =   2550
+         Object.Height          =   285
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   9.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "ESPECIALIDAD"
+      EndProperty
+      ItemType1       =   3
+      BeginProperty Item1 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lblAsignatura"
+         Object.Left            =   2550
+         Object.Top             =   30
+         Object.Width           =   4275
+         Object.Height          =   285
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   9.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "ASIGNATURA/PERSPECTIVA/ESPACIO"
+      EndProperty
+      ItemType2       =   3
+      BeginProperty Item2 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lblHoras"
+         Object.Left            =   6825
+         Object.Top             =   30
+         Object.Width           =   510
+         Object.Height          =   285
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   9.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "HS."
+         Alignment       =   2
+      EndProperty
+      ItemType3       =   3
+      BeginProperty Item3 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lblDesde"
+         Object.Left            =   8910
+         Object.Top             =   30
+         Object.Width           =   1005
+         Object.Height          =   285
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   9.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "DESDE"
+         Alignment       =   2
+      EndProperty
+      ItemType4       =   3
+      BeginProperty Item4 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lblHasta"
+         Object.Left            =   9975
+         Object.Top             =   30
+         Object.Width           =   1005
+         Object.Height          =   285
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   9.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "HASTA"
+         Alignment       =   2
+      EndProperty
+      ItemType5       =   6
+      BeginProperty Item5 {1C13A8E4-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Forma1"
+         Object.Width           =   10995
+         Object.Height          =   15
+         BackColor       =   0
+         BackStyle       =   1
+      EndProperty
+      ItemType6       =   6
+      BeginProperty Item6 {1C13A8E4-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Forma2"
+         Object.Top             =   270
+         Object.Width           =   10995
+         Object.Height          =   15
+         BackColor       =   0
+         BackStyle       =   1
+      EndProperty
+      ItemType7       =   3
+      BeginProperty Item7 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lblModulos"
+         Object.Left            =   7335
+         Object.Top             =   30
+         Object.Width           =   495
+         Object.Height          =   285
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   9.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "MOD."
+         Alignment       =   2
+      EndProperty
+      ItemType8       =   3
+      BeginProperty Item8 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "lblRevista"
+         Object.Left            =   7770
+         Object.Top             =   30
+         Object.Width           =   1020
+         Object.Height          =   285
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   9.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "REV."
+         Alignment       =   2
+      EndProperty
+   EndProperty
+   SectionCode2    =   4
+   BeginProperty Section2 {1C13A8E0-A0B6-11D0-848E-00A0C90DC8A9} 
+      _Version        =   393216
+      Name            =   "Sección1"
+      Object.Height          =   240
+      NumControls     =   7
+      ItemType0       =   4
+      BeginProperty Item0 {1C13A8E2-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "txtCarrera"
+         Object.Width           =   2550
+         Object.Height          =   240
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   9.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         DataField       =   "Carrera"
+         BeginProperty DataFormat {6D835690-900B-11D0-9484-00A0C91110ED} 
+            Type            =   0
+            Format          =   ""
+            HaveTrueFalseNull=   0
+            FirstDayOfWeek  =   0
+            FirstWeekOfYear =   0
+            LCID            =   11274
+            SubFormatType   =   0
+         EndProperty
+         DataMember      =   "Movimientos"
+      EndProperty
+      ItemType1       =   4
+      BeginProperty Item1 {1C13A8E2-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "txtAsignatura"
+         Object.Left            =   2550
+         Object.Width           =   4275
+         Object.Height          =   240
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   9.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         DataField       =   "Asignatura"
+         BeginProperty DataFormat {6D835690-900B-11D0-9484-00A0C91110ED} 
+            Type            =   0
+            Format          =   ""
+            HaveTrueFalseNull=   0
+            FirstDayOfWeek  =   0
+            FirstWeekOfYear =   0
+            LCID            =   11274
+            SubFormatType   =   0
+         EndProperty
+         DataMember      =   "Movimientos"
+      EndProperty
+      ItemType2       =   4
+      BeginProperty Item2 {1C13A8E2-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "txtHoras"
+         Object.Left            =   6825
+         Object.Width           =   510
+         Object.Height          =   240
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   9.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         DataField       =   "Horas"
+         Alignment       =   2
+         BeginProperty DataFormat {6D835690-900B-11D0-9484-00A0C91110ED} 
+            Type            =   0
+            Format          =   ""
+            HaveTrueFalseNull=   0
+            FirstDayOfWeek  =   0
+            FirstWeekOfYear =   0
+            LCID            =   11274
+            SubFormatType   =   0
+         EndProperty
+         DataMember      =   "Movimientos"
+      EndProperty
+      ItemType3       =   4
+      BeginProperty Item3 {1C13A8E2-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "txtModulos"
+         Object.Left            =   7335
+         Object.Width           =   495
+         Object.Height          =   240
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   9.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         DataField       =   "Modulos"
+         Alignment       =   2
+         BeginProperty DataFormat {6D835690-900B-11D0-9484-00A0C91110ED} 
+            Type            =   0
+            Format          =   ""
+            HaveTrueFalseNull=   0
+            FirstDayOfWeek  =   0
+            FirstWeekOfYear =   0
+            LCID            =   11274
+            SubFormatType   =   0
+         EndProperty
+         DataMember      =   "Movimientos"
+      EndProperty
+      ItemType4       =   4
+      BeginProperty Item4 {1C13A8E2-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "txtDesde"
+         Object.Left            =   8910
+         Object.Width           =   1005
+         Object.Height          =   240
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   9.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         DataField       =   "Desde"
+         Alignment       =   2
+         BeginProperty DataFormat {6D835690-900B-11D0-9484-00A0C91110ED} 
+            Type            =   0
+            Format          =   ""
+            HaveTrueFalseNull=   0
+            FirstDayOfWeek  =   0
+            FirstWeekOfYear =   0
+            LCID            =   11274
+            SubFormatType   =   0
+         EndProperty
+         DataMember      =   "Movimientos"
+      EndProperty
+      ItemType5       =   4
+      BeginProperty Item5 {1C13A8E2-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "txtHasta"
+         Object.Left            =   9990
+         Object.Width           =   1005
+         Object.Height          =   240
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   9.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         DataField       =   "Hasta"
+         Alignment       =   2
+         BeginProperty DataFormat {6D835690-900B-11D0-9484-00A0C91110ED} 
+            Type            =   0
+            Format          =   ""
+            HaveTrueFalseNull=   0
+            FirstDayOfWeek  =   0
+            FirstWeekOfYear =   0
+            LCID            =   11274
+            SubFormatType   =   0
+         EndProperty
+         DataMember      =   "Movimientos"
+      EndProperty
+      ItemType6       =   4
+      BeginProperty Item6 {1C13A8E2-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "txtRevista"
+         Object.Left            =   7770
+         Object.Width           =   1020
+         Object.Height          =   240
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   9.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         DataField       =   "Revista"
+         Alignment       =   2
+         BeginProperty DataFormat {6D835690-900B-11D0-9484-00A0C91110ED} 
+            Type            =   0
+            Format          =   ""
+            HaveTrueFalseNull=   0
+            FirstDayOfWeek  =   0
+            FirstWeekOfYear =   0
+            LCID            =   11274
+            SubFormatType   =   0
+         EndProperty
+         DataMember      =   "Movimientos"
+      EndProperty
+   EndProperty
+   SectionCode3    =   7
+   BeginProperty Section3 {1C13A8E0-A0B6-11D0-848E-00A0C90DC8A9} 
+      _Version        =   393216
+      Name            =   "Sección3"
+      Object.Height          =   570
+      NumControls     =   4
+      ItemType0       =   3
+      BeginProperty Item0 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta16"
+         Object.Top             =   30
+         Object.Width           =   10980
+         Object.Height          =   270
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   9.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "Almafuerte 300 - Junín - Bs. As. - B6000GPF  ·  Tel: 02362-443371 / RPV 49216"
+         Alignment       =   1
+      EndProperty
+      ItemType1       =   3
+      BeginProperty Item1 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta17"
+         Object.Top             =   300
+         Object.Width           =   10980
+         Object.Height          =   270
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   9.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "e-Mail: instituto20@acerca.com.ar  ·  http://www.instituto20.com.ar  ·  http://ref.instituto20.com.ar"
+         Alignment       =   1
+      EndProperty
+      ItemType2       =   3
+      BeginProperty Item2 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta18"
+         Object.Top             =   30
+         Object.Width           =   3495
+         Object.Height          =   270
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   9
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         Object.Caption         =   "Página %p de %P"
+      EndProperty
+      ItemType3       =   6
+      BeginProperty Item3 {1C13A8E4-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Forma3"
+         Object.Width           =   10995
+         Object.Height          =   5
+         BackColor       =   0
+         BackStyle       =   1
+      EndProperty
+   EndProperty
+   SectionCode4    =   8
+   BeginProperty Section4 {1C13A8E0-A0B6-11D0-848E-00A0C90DC8A9} 
+      _Version        =   393216
+      Name            =   "Sección5"
+      Object.Height          =   2100
+      NumControls     =   4
+      ItemType0       =   3
+      BeginProperty Item0 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta12"
+         Object.Top             =   240
+         Object.Width           =   10980
+         Object.Height          =   540
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   9.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+      EndProperty
+      ItemType1       =   3
+      BeginProperty Item1 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta14"
+         Object.Top             =   885
+         Object.Width           =   10980
+         Object.Height          =   540
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   9.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+      EndProperty
+      ItemType2       =   6
+      BeginProperty Item2 {1C13A8E4-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Forma4"
+         Object.Width           =   10995
+         Object.Height          =   15
+         BackColor       =   0
+         BackStyle       =   1
+      EndProperty
+      ItemType3       =   3
+      BeginProperty Item3 {1C13A8E1-A0B6-11D0-848E-00A0C90DC8A9} 
+         _Version        =   393216
+         Name            =   "Etiqueta2"
+         Object.Top             =   1545
+         Object.Width           =   10980
+         Object.Height          =   540
+         BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
+            Name            =   "Arial"
+            Size            =   9.75
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+      EndProperty
+   EndProperty
+End
+Attribute VB_Name = "rptServicios"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = False
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
