@@ -44,9 +44,9 @@ Begin VB.Form frmFinales
          TabCaption(0)   =   "Cursada y Asistencia"
          TabPicture(0)   =   "frmFinales.frx":0000
          Tab(0).ControlEnabled=   0   'False
-         Tab(0).Control(0)=   "Label14"
+         Tab(0).Control(0)=   "frCursada"
          Tab(0).Control(1)=   "Label10"
-         Tab(0).Control(2)=   "frCursada"
+         Tab(0).Control(2)=   "Label14"
          Tab(0).ControlCount=   3
          TabCaption(1)   =   "Final"
          TabPicture(1)   =   "frmFinales.frx":001C
@@ -198,7 +198,7 @@ Begin VB.Form frmFinales
             _ExtentY        =   503
             _Version        =   393216
             Enabled         =   0   'False
-            Format          =   119603201
+            Format          =   83296257
             CurrentDate     =   37550
             MinDate         =   -36522
          End
@@ -1421,7 +1421,7 @@ Private Sub dtcCarreras_Change()
     If dtcCarreras.Text <> "" Then
         adoCarreras.Recordset.MoveFirst
         adoCarreras.Recordset.Find ("Carrera=" & dtcCarreras.BoundText)
-        adoPlanCompleto.RecordSource = "SELECT Materias.Curso, Materias.Codigo, Materias.Abreviatura, Materias.Detalle AS CodigoDetalle, Detalles.Detalle FROM Materias INNER JOIN Detalles ON Materias.Detalle = Detalles.Codigo WHERE Eliminada=0 AND Materias.Carrera=" & dtcCarreras.BoundText & " ORDER BY Materias.Codigo"
+        adoPlanCompleto.RecordSource = "SELECT Materias.Curso, Materias.Codigo, Materias.Abreviatura, Materias.Detalle AS CodigoDetalle, Detalles.Detalle FROM Materias INNER JOIN Detalles ON Materias.Detalle = Detalles.Codigo WHERE Eliminada=0 AND Materias.Carrera=" & dtcCarreras.BoundText & " ORDER BY Materias.OrdenPlan, Materias.Codigo"
         adoPlanCompleto.Refresh
         Conexion.Open
         Set CantidadPlan = Conexion.Execute("SELECT Count(Materias.Nombre) AS Cantidad From Materias WHERE Materias.Carrera=" & dtcCarreras.BoundText & " AND (Materias.Detalle=1 OR Materias.Detalle=2) AND Eliminada=0")
@@ -1436,7 +1436,7 @@ Private Sub dtcCarreras_Change()
         cmdModificarFinal.Enabled = False
         cmdEliminarFinal.Enabled = False
         adoFinales.RecordSource = "SELECT [Materias].[Curso], [Finales].[Materia] AS Codigo, [Materias].[Nombre], [Materias].[Detalle], [Personal].[Nombre] AS CursoCon, [Finales].[Ano], [Finales].[Division], [Finales].[Parcial1], [Finales].[Parcial2], [Finales].[Totalizador], [Finales].[Recuperatorio1], [Finales].[Recuperatorio2], [Finales].[Cursada], [Finales].[Asistencia], [Finales].[AsistenciaPorcentaje], [Finales].[Promocion], [Finales].[Nota], [Finales].[Fecha] , [Finales].[Libro], [Finales].[Folio], [Finales].[Mesa], [Finales].[Acta], [Finales].[Equivalencia], [Finales].[Establecimiento], [Instituciones].[Institucion], [Finales].[Aprobada], [Finales].[PerdioTurno], [Finales].[Habilitada], [Finales].[Profesor], [Finales].[CantidadMesas], [Finales].[PerdioCursada], [Finales].[Comentario] FROM ((Finales INNER JOIN Materias ON [Finales].[Materia]=[Materias].[Codigo]) INNER JOIN Personal ON [Finales].[Profesor]=[Personal].[Codigo]) " _
-        & "  INNER JOIN Instituciones ON [Finales].[Establecimiento]=[Instituciones].[Codigo] Where ((([Finales].[Alumno]) = " & adoAlumnos.Recordset!Permiso & ") And (([Materias].[Carrera]) = " & dtcCarreras.BoundText & ") And (([Materias].[Eliminada]) = 0)) ORDER BY [Finales].[Materia]"
+        & "  INNER JOIN Instituciones ON [Finales].[Establecimiento]=[Instituciones].[Codigo] Where ((([Finales].[Alumno]) = " & adoAlumnos.Recordset!Permiso & ") And (([Materias].[Carrera]) = " & dtcCarreras.BoundText & ") And (([Materias].[Eliminada]) = 0)) ORDER BY [Materias].[OrdenPlan], [Materias].[Codigo] "
         adoFinales.Refresh
         Conexion.Open
         Set CantidadAprobadas = Conexion.Execute("SELECT Count(Materias.Detalle) As Cantidad FROM Finales INNER JOIN Materias ON Finales.Materia = Materias.Codigo WHERE (((Materias.Detalle)=1 Or (Materias.Detalle)=2) AND ((Finales.Alumno)=" & adoAlumnos.Recordset!Permiso & ") AND ((Materias.Carrera)=" & dtcCarreras.BoundText & ") AND Materias.Eliminada=0 AND ((Finales.Aprobada)=1))")

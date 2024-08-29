@@ -17,7 +17,7 @@ Begin VB.Form frmVersion
       Width           =   4935
       Begin VB.Label Label2 
          Alignment       =   2  'Center
-         Caption         =   "Versión 1.1.22"
+         Caption         =   "Versión 1.1.23"
          Height          =   375
          Left            =   1920
          TabIndex        =   3
